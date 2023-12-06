@@ -1,0 +1,103 @@
+#  Template NodeJS build
+
+#  This template allows you to validate your NodeJS code.
+#  The workflow allows running tests and code linting on the default branch.
+
+image: node:16
+
+pipelines:
+  branches:
+    master:
+      - step:
+          max-time: 20
+          name: Install dependencies
+          caches:
+            - node
+          script:
+            - npm install
+      - step:
+          max-time: 20
+          name: Lint and test
+          caches:
+            - node
+          script:
+            - npm run lint
+            - npm test
+      - step:
+          max-time: 20
+          name: Build
+          caches:
+            - node
+          script:
+            - npm run build
+      - step:
+          max-time: 20
+          name: Deploy Stack to Production
+          deployment: production
+          caches:
+            - node
+          script:
+            - npm run deploy
+    staging:
+      - step:
+          max-time: 20
+          name: Install dependencies
+          caches:
+            - node
+          script:
+            - npm install
+      - step:
+          max-time: 20
+          name: Lint and test
+          caches:
+            - node
+          script:
+            - npm run lint
+            - npm test
+      - step:
+          max-time: 20
+          name: Build
+          caches:
+            - node
+          script:
+            - npm run build
+      - step:
+          max-time: 20
+          name: Deploy Stack to Staging
+          deployment: staging
+          caches:
+            - node
+          script:
+            - npm run deploy
+    dev:
+      - step:
+          max-time: 20
+          name: Install dependencies
+          caches:
+            - node
+          script:
+            - npm install
+      - step:
+          max-time: 20
+          name: Lint and test
+          caches:
+            - node
+          script:
+            - npm run lint
+            - npm test
+      - step:
+          max-time: 20
+          name: Build
+          caches:
+            - node
+          script:
+            - npm run build
+      - step:
+          max-time: 20
+          name: Deploy Stack to Development
+          deployment: test
+          caches:
+            - node
+          script:
+            - npm run deploy
+

@@ -1,0 +1,345 @@
+[
+    {
+        "id": "ffhfjksafhnvxz1231fdsasd3",
+        "attributes": {
+            "archivedServiceObjects": [
+                {
+                    "_id": {
+                        "$oid": "64636fe4eeaad60ddc61e677"
+                    },
+                    "id": "custom-plumbing-job-hourly",
+                    "category": [
+                        {
+                            "id": {
+                                "$oid": "63fbce632e74b721f7424b87"
+                            },
+                            "categoryName": "Misc",
+                            "description": "Misc. plumbing work",
+                            "ancestor": [
+                                {
+                                    "name": "Services",
+                                    "path": "/services"
+                                },
+                                {
+                                    "name": "Plumbing",
+                                    "path": "/services/plumbing"
+                                }
+                            ],
+                            "slug": "plumbing-misc",
+                            "path": "services/plumbing/plumbing-misc"
+                        }
+                    ],
+                    "description": "Custom Hourly Plumbing Job with Free Estimate.",
+                    "quantity": {
+                        "prompt": null,
+                        "minimum": 1,
+                        "maximum": 1
+                    },
+                    "pricing": {
+                        "hourly": {
+                            "regularHours": {
+                                "firstHourValue": 100,
+                                "additionalHoursValue": 45,
+                                "additionalHoursType": "dollar"
+                            },
+                            "afterHours": {
+                                "firstHourValue": 200,
+                                "additionalHoursValue": 50,
+                                "additionalHoursType": "percentage"
+                            },
+                            "estimatedHours": 0,
+                            "isFreeEstimate": true
+                        }
+                    },
+                    "facets": {},
+                    "questions": [],
+                    "jobMaterialQuestions": [],
+                    "subServices": [],
+                    "settings": {
+                        "consumerNotesPrompt": "please describe in your own words what kind of job you need help with.",
+                        "mediaUploadPrompt": "please upload at least one type of media such as a picture, video, or audio recording so we can understand the job in question.",
+                        "isConsumerNotesRequired": true,
+                        "isMediaPhotoRequired": false,
+                        "isMediaVideoRequired": false,
+                        "isMediaVoicenoteRequired": false,
+                        "minimumMediaTypesRequired": 1
+                    }
+                }
+            ],
+            "cartServices": [
+                {
+                    "id": "f2fgjasdsggawgzxfz1231fdsasd3",
+                    "serviceId": "f2f45u7f67sagawgzxfz1231fdsasd3",
+                    "quantity": 12,
+                    "answers": [
+                        {
+                            "questionId": "placeOfWaterHeater",
+                            "answerId": "865",
+                            "userAnswer": "Basement"
+                        },
+                        {
+                            "questionId": "houseType",
+                            "answerId": "956",
+                            "userAnswer": "Single Family"
+                        }
+                    ],
+                    "consumerNote": {
+                        "content": "test content",
+                        "media": {
+                            "images": [
+                                {
+                                    "url": "/path/to/image",
+                                    "thumbnail": "path/to/thumbnail",
+                                    "description": "This is image description",
+                                    "type": "image"
+                                }
+                            ],
+                            "videos": [
+                                {
+                                    "url": "/path/to/videos",
+                                    "thumbnail": "path/to/thumbnail",
+                                    "description": "This is image description",
+                                    "type": "image"
+                                }
+                            ],
+                            "voicenotes": [
+                                {
+                                    "url": "/path/to/voicenotes",
+                                    "thumbnail": "path/to/thumbnail",
+                                    "description": "This is image description",
+                                    "type": "image"
+                                }
+                            ]
+                        }
+                    },
+                    "costDetail": {
+                        "hourlyRegularHoursPricing": {
+                            "regularHours": {
+                                "firstHourValue": 4,
+                                "additionalHoursValue": 23.8,
+                                "additionalHoursType": "dollar"
+                            }
+                        },
+                        "regularEstimatedHours": 4,
+                        "extendedServiceCost": 23.8
+                    },
+                    "preferredTiming": {
+                        "preferredWeekDays": [
+                            "mon",
+                            "tue"
+                        ],
+                        "preferredTimeSlots": [
+                            {
+                                "from": 800,
+                                "to": 1200,
+                                "title": "morning"
+                            },
+                            {
+                                "from": 1200,
+                                "to": 1700,
+                                "title": "afternoon"
+                            },
+                            {
+                                "from": 1700,
+                                "to": 2000,
+                                "title": "evening"
+                            },
+                            {
+                                "from": 2000,
+                                "to": 2400,
+                                "title": "late evening"
+                            },
+                            {
+                                "from": 2400,
+                                "to": 400,
+                                "title": "night"
+                            },
+                            {
+                                "from": 400,
+                                "to": 800,
+                                "title": "early morning"
+                            }
+                        ]
+                    },
+                    "jobMaterials": [
+                        {
+                            "id": "71a1e80c-f3f6-11ed-a05b-0242ac120003",
+                            "isRequired": true,
+                            "product": {
+                                "productId": "9039ba56-f3f6-11ed-a05b-0242ac120003",
+                                "brand": "A,O, Smith",
+                                "title": "Signature 40-Gallon Short 6-Year Limited 40000-BTU Natural Gas Water Heater",
+                                "description": "Signature 40-Gallon Short 6-Year Limited 40000-BTU Natural Gas Water Heater",
+                                "price": 439.00,
+                                "facets": [],
+                                "media": {
+                                    "images": [
+                                        {
+                                            "url": "https://fixlers-...2269872-original.webp",
+                                            "thumbnail": "https://fixlers-...2269872-thumbnail.webp",
+                                            "description": "man with shaven head"
+                                        }
+                                    ],
+                                    "videos": [
+                                        {
+                                            "url": "https://fixlers-...2269872-original.webp",
+                                            "thumbnail": "https://fixlers-...2269872-thumbnail.webp",
+                                            "description": "man with shaven head"
+                                        }
+                                    ],
+                                    "voicenotes": [
+                                        {
+                                            "url": "https://fixlers-...2269872-original.webp",
+                                            "thumbnail": null,
+                                            "description": "man with shaven head"
+                                        }
+                                    ]
+                                }
+                            },
+                            "status": "Waiting for Approval",
+                            "consumerApproval": {
+                                "isApprovedByConsumer": true,
+                                "rejectedReasonDescription": "",
+                                "rejectedReason": ""
+                            },
+                            "totalSummary": {
+                                "quantity": 1,
+                                "extendedPrice": 439.00
+                            },
+                            "addedBy": "consumer",
+                            "isProvidedByTechnician": false
+                        },
+                        {
+                            "id": "1aaa6438-f3f7-11ed-a05b-0242ac120003",
+                            "isRequired": true,
+                            "product": {
+                                "productId": "1e58861e-f3f7-11ed-a05b-0242ac120003",
+                                "brand": "A,O, Smith",
+                                "title": "Signature 40-Gallon Short 6-Year Limited 40000-BTU Natural Gas Water Heater",
+                                "description": "Signature 40-Gallon Short 6-Year Limited 40000-BTU Natural Gas Water Heater",
+                                "price": 239.00,
+                                "facets": [],
+                                "media": {
+                                    "images": [
+                                        {
+                                            "url": "https://fixlers-...2269872-original.webp",
+                                            "thumbnail": "https://fixlers-...2269872-thumbnail.webp",
+                                            "description": "man with shaven head"
+                                        }
+                                    ],
+                                    "videos": [
+                                        {
+                                            "url": "https://fixlers-...2269872-original.webp",
+                                            "thumbnail": "https://fixlers-...2269872-thumbnail.webp",
+                                            "description": "man with shaven head"
+                                        }
+                                    ],
+                                    "voicenotes": [
+                                        {
+                                            "url": "https://fixlers-...2269872-original.webp",
+                                            "thumbnail": null,
+                                            "description": "man with shaven head"
+                                        }
+                                    ]
+                                }
+                            },
+                            "status": "Approved",
+                            "consumerApproval": {
+                                "isApprovedByConsumer": false,
+                                "rejectedReasonDescription": "",
+                                "rejectedReason": ""
+                            },
+                            "totalSummary": {
+                                "quantity": 2,
+                                "extendedPrice": 478.00
+                            },
+                            "addedBy": "technician",
+                            "isProvidedByTechnician": true
+                        },
+                        {
+                            "id": "7cdfe04a-f3f9-11ed-a05b-0242ac120003",
+                            "isRequired": true,
+                            "product": {
+                                "productId": "81da0616-f3f9-11ed-a05b-0242ac120003",
+                                "brand": "A,O, Smith",
+                                "title": "Signature 40-Gallon Short 6-Year Limited 40000-BTU Natural Gas Water Heater",
+                                "description": "Signature 40-Gallon Short 6-Year Limited 40000-BTU Natural Gas Water Heater",
+                                "price": 100.00,
+                                "facets": [],
+                                "media": {
+                                    "images": [
+                                        {
+                                            "url": "https://fixlers-...2269872-original.webp",
+                                            "thumbnail": "https://fixlers-...2269872-thumbnail.webp",
+                                            "description": "man with shaven head"
+                                        }
+                                    ],
+                                    "videos": [
+                                        {
+                                            "url": "https://fixlers-...2269872-original.webp",
+                                            "thumbnail": "https://fixlers-...2269872-thumbnail.webp",
+                                            "description": "man with shaven head"
+                                        }
+                                    ],
+                                    "voicenotes": [
+                                        {
+                                            "url": "https://fixlers-...2269872-original.webp",
+                                            "thumbnail": null,
+                                            "description": "man with shaven head"
+                                        }
+                                    ]
+                                }
+                            },
+                            "status": "Rejected",
+                            "consumerApproval": {
+                                "isApprovedByConsumer": false,
+                                "rejectedReasonDescription": "Price is to high",
+                                "rejectedReason": "Price"
+                            },
+                            "totalSummary": {
+                                "quantity": 5,
+                                "extendedPrice": 500.00
+                            },
+                            "addedBy": "technician",
+                            "isProvidedByTechnician": true
+                        }
+                    ]
+                }
+            ],
+            "pricingSummary": {
+                "materialCostDetail": {
+                    "totalMaterialCost": 11,
+                    "fixlersMaterialMarkupPct": 34,
+                    "fixlersMaterialMarkupFee": 2
+                },
+                "serviceCostDetail": {
+                    "totalServiceCost": 3,
+                    "fixlersServiceMarkupPct": 45,
+                    "fixlersServiceMarkupFee": 11,
+                    "totalCost": 564,
+                    "totalFixlersMarkupFee": 88,
+                    "subTotal": 99,
+                    "taxPct": 667,
+                    "taxAmount": 88,
+                    "grandTotal": 522
+                }
+            },
+            "preferredTiming": {}
+        },
+        "relationships": {
+            "belongsToConsumer": {}
+        },
+        "properties": {
+            "createdService": "consumerApp",
+            "createdBy": {
+                "id": "5e7f5f5f5f5f5f5f5f5f5f5f"
+            },
+            "createdDate": "2020-06-30T07: 30: 00.000Z",
+            "modifiedService": "consumerApp",
+            "modifiedBy": "system_user",
+            "modifiedDate": "2020-06-30T07: 30: 00.000Z",
+            "__v": 444,
+            "generation": 23
+        }
+    }
+]
